@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+ <head>
+ <meta charset="utf-8">
+ <title>Enciclopedia Virtual de Medicina</title>
+ </head>
+ <body>
+ <header>
+   <h1>Enciclopedia Virtual de Medicina</h1>
+   <a href= "../index.html">
+    <img src="../imagenes/logoMedline.jpg"
+	alt="logo de la enciclopedia médica de MedlinePlus">
+	</a>
+</header>
+<main>
+<h2>Formulario de Contacto</h2>
+<p>Rellene los siguientes campos para realizar el formulario.</p>
+<p>Los campos obligatorios marcados con (*) </p>
+<form action="paginaRespuestaFormulario.html" method="post">
+<p><label>Asunto (*) : <input type="text" placeholder="Introduzca texto." required></label></p>
+
+<p><label>Comentario (*) : <textarea placeholder= "Introduzca texto." required></textarea></label></p>
+
+<p><label>Yo soy: <select>
+
+            <option value="">Seleccione una opción</option>
+            <option value="Paciente">Paciente</option>
+            <option value="Científico">Científico</option>
+            <option value="Médico">Médico</option>
+            <option value="Educador">Educador</option>
+            <option value="Fabricante">Fabricante</option>
+            <option value="Periodista">Periodista</option>
+        </select></label></p>
+
+<p><label>Fecha de nacimiento: <input type="date"></label></p>
+<fieldset>
+<legend>Sexo: </legend>
+<div><label><input type="radio" value="hombre" name="sexo" required> Hombre</label></div>
+<div><label><input type="radio" name="sexo" value="mujer"> Mujer</label></div>
+<div><label><input type="radio" name="sexo" value="otro"> Otro</label></div>
+</fieldset>
+<p><label>Correo electrónico: <input type="email" placeholder="Introduzca su correo electrónico."></label></p>
+<p><label>Deseo recibir más información <input type="checkbox"></label></p>
+
+<p><label><input type="submit"></label></p>
+</form>
+</main>
+<footer>
+    <p>2024 Marcos Sánchez Rosillo y Cristian Martínez Hernández. Todos los derechos reservados.</p>
+    <p>Universidad de Alicante - Ingeniería Biomédica</p>
+</footer>
+</body>
+</html>
